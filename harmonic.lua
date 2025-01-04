@@ -79,13 +79,13 @@ function init()
     elseif x == 4 then
       params:set("filterFreq", Y * 440)
     elseif x == 5 then
-      params:set("osc1Amp", Y / 160.0)
+      params:set("osc1Amp", Y / 100.0)
     elseif x == 6 then
-      params:set("osc2Amp", Y / 160.0)
+      params:set("osc2Amp", Y / 100.0)
     elseif x == 7 then
-      params:set("osc3Amp", Y / 160.0)
+      params:set("osc3Amp", Y / 100.0)
     elseif x == 8 then
-      params:set("noiseAmp", Y / 160.0)
+      params:set("noiseAmp", Y / 100.0)
     end
     
     for _y=1,8 do
